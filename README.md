@@ -32,20 +32,26 @@
 
 ## Day 6: 01/10/2022
 * Puzzle #3: Mcnugget Numbers
-* Django Project: portfolio_site
 * Frontend Project: movie_booking
+* Introduction to HTML & CSS
 
 ## Day 7: 01/11/2022
 * Frontend Project: dad_jokes
 * Frontend Project: expense_tracker
+* Django Project: portfolio_site
 
 ## Day 8: 01/12/2022
-* Django Project: exchange_rate
 * Frontend Project: memory_cards
+* Django Project: exchange_rate
 
 ## Day 9: 01/13/2022
-* Frontend Projects: relaxer_app
+* Frontend Project: relaxer_app
 * Frontend Project: meal_finder
+* Group Presentation: Food Talk
 
 ## Day 10: 01/14/2022
+* Frontend Project: the_choice
+* Frontend Project: basic_calculator
+* Frontend Project: contact_form
+* Puzzle #4: Fizz Buzz Puzzle
 
