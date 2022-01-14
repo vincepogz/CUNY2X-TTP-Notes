@@ -53,5 +53,6 @@
 * Frontend Project: the_choice
 * Frontend Project: basic_calculator
 * Frontend Project: contact_form
+* Introduction to React
 * Puzzle #4: Fizz Buzz Puzzle
 
