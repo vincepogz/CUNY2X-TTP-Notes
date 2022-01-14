@@ -14,8 +14,8 @@
 * If, Elief, and Else Statements
 
 ## Day 3: 01/05/2022
-* Functions
 * Daily Warmup (Indexing, Lists, Dictionaries, Nested Dictionaries, Random())
+* Functions
 * Intro to Django
 * Installing Visual Studio Code + Extensions
 
@@ -31,9 +31,9 @@
 * Puzzle #2: Right Triangles in Rectangle
 
 ## Day 6: 01/10/2022
-* Puzzle #3: Mcnugget Numbers
 * Frontend Project: movie_booking
 * Introduction to HTML & CSS
+* Puzzle #3: Mcnugget Numbers
 
 ## Day 7: 01/11/2022
 * Frontend Project: dad_jokes
