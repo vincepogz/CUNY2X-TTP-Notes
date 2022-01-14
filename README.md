@@ -1,7 +1,13 @@
 # CUNY2X-TTP-Notes
- Notes
 
-## Day1:
-    * Introduction to Python
-    * Setting up Github
-    * Installing Visual Studio Code + Plugins
+## Day 1:
+* Introduction to Python (Strings, Indexing, Input, Numbers, and Arithmetics)
+* Setting up Github
+* Installing Visual Studio Code + Extensions
+
+## Day 2:
+* Calculator Assignment
+* Daily Warmup (Print Strings in reverse, Input(), Type(), Converting Objects Type)
+* Data Collection Types (Lists/Arrays, Dictionaries, and Tuples)
+* For Loops
+* If, Elief, and Else Statements
