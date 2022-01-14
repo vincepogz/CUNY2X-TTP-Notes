@@ -14,7 +14,7 @@ const addContainer = document.getElementById('add-container');
 // Creating undeclarable variable and set it to 0
 let currentActiveCard = 0;
 
-// Creating a list and initializing it to empty element
+// Creating a list and initializing it to an empty list
 const cardsEl = [];
 
 // Creating a variable and referring it by function
