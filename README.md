@@ -68,3 +68,9 @@
 * Frontend Project: background_slider
 * Frontend Project: animated_navigation
 * React Project: the_venue
+
+# Day 12: 01/19/2022
+
+* Frontend Project: Word Length Calculator
+* Frontend Project: Color Changing App
+* React Project: Presentation
