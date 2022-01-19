@@ -1,152 +1,238 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Applying to the whole (even <html>) page */
 :root {
+  /* Declaring global css variable */
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+/* '*' indicates all elements  */
 * {
+  /* Box-Sizing: Defines the width & height of an element */
+  /* Box-Sizing: border-box includes padding & border */
   box-sizing: border-box;
 }
 
+/* body indicates the properties of the whole html "body" */
 body {
-    background-color: #f7f7f7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-}
-  
-.container { 
-    margin: 30px auto;
-    width: 350px;
+  background-color: #f7f7f7;
+    
+  /* display: flex tells the browser that the container is a flex container */
+  /* This allow the section to use flex properties */
+  display: flex;
+
+  /* If the element is not a flexible item, flex properties will not apply */
+  /* flex-direction: column display elements in column */
+  flex-direction: column;
+  /* align-items specifies the default alignment inside flexible containers */
+  align-items: center;
+  /* justify-content aligns elements when the elements do not use all avaiable space */
+  justify-content: center;
+
+  /* min-height sets the minimum height of <body> */
+  min-height: 100vh;
+
+  /* margin defines the space between the section and the element */
+  margin: 0;
+
+  /* Defines the font used */
+  font-family: 'Lato', sans-serif;
 }
 
+/* Defining the properties of class='container' in <body> */
+.container {
+  
+  /* margin defines the space between the section and the element */
+  /* Defines 30 Pixels from top/bottom and auto left/right */
+  margin: 30px auto;
+
+  /* Defines the width of the section as 350 Pixels */
+  width: 350px;
+
+}
+
+/* Modifying properties of h1 tags */
 h1 {
-    letter-spacing: 1px;
-    margin: 0;
+  letter-spacing: 1px;
+  margin: 0;
 }
-  
+
+/* Modifying properties of h3 tags */
 h3 {
-    border-bottom: 1px solid #bbb;
-    padding-bottom: 10px;
-    margin: 40px 0 10px;
+  /* Apply border properties specifically in bottom */
+  border-bottom: 1px solid #bbb;
+
+  /* Apply padding properties specificially in bottom */
+  padding-bottom: 10px;
+
+  /* Apply margin properties: (40px top) (0 left/right) (10px bottom) */
+  margin: 40px 0 10px;
 }
-  
+
+/* Modifying properties of h4 tags */
 h4 {
-    margin: 0;
-    text-transform: uppercase;
+  
+  margin: 0;
+
+  /* Applying text transformation: Making all texts uppercase */
+  text-transform: uppercase;
 }
 
+/* Defining section properties */
 .inc-exp-container {
-    background-color: #fff;
-    box-shadow: var(--box-shadow);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
+  background-color: #fff;
+
+  /* Defining the box-shadow properties to variable --box-shadow */
+  box-shadow: var(--box-shadow);
+
+  /* Defining the space between elements and the section is 20 pixels */
+  padding: 20px;
+
+  /* Applying display as flex and using flex properties */
+  display: flex;
+  /* Flex properties where there's space between elements */
+  justify-content: space-between;
+
+  /* Defining the margin between this section and other section */
+  margin: 20px 0;
 }
-  
+
+/* Defining the properties of <div> tags inside this section */
 .inc-exp-container > div {
-    flex: 1;
-    text-align: center;
+
+  /* flex is shorthand property for: grow, shrink, and basis */
+  /* default: 0 1 auto */
+  /* flex: 1 is set to make all flex items to have same lenghts regardless of content */
+  flex: 1;
+
+  /* Aligning all texts to center */
+  text-align: center;
 }
 
+/* Modifying the first element in this section */
 .inc-exp-container > div:first-of-type {
-    border-right: 1px solid #dedede;
+  border-right: 1px solid #dedede;
 }
-  
+
+/* Modifying properties of 'money' section */
 .money {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 5px 0;
+  /* Defining the font size */
+  font-size: 20px;
+  /* Defining the letter spacing */
+  letter-spacing: 1px;
+
+  /* Defining the margin */
+  /* Margin: 5 pixels from top/bottom and 0 Pixels left/right */
+  margin: 5px 0;
+}
+
+/* Modifying properties of section with class='money plus' */
+.money.plus {
+  color: #2ecc71;
+}
+
+/* Modifying properties of section with class='money plus' */
+.money.minus {
+  color: #c0392b;
+}
+
+/* Modifying properties of <label> tags */
+label {
+  /* inline-block: allows element to be formatted as an inline-block element */
+  /* <label> is inline by default */
+  display: inline-block;
+
+  /* Defining margin: (10 Pixels top/bottom) (0 left/right) */
+  margin: 10px 0;
+}
+
+/* Defining properties for input with type */
+input[type='text'],
+input[type='number'] {
+  /* border is a shorthand property for: (width) (style), and (color) */
+  /* border: (1px width), (solid style), and (color) */
+  border: 1px solid #dedede;
+
+  /* border-radius rounds the corder of the section */
+  border-radius: 2px;
+
+  /* display: block creates a new line before/after the element */
+  /* input is inline by default */
+  display: block;
+
+  /* Setting font-size of <input type> label */
+  font-size: 16px;
+
+  /* Setting space between the border and the element */
+  padding: 10px;
+
+  /* setting width to 100% of given space */
+  width: 100%;
+}
+
+/* Defining properties for 'btn' class */
+.btn {
+  /* Setting a pointer cursor when hovered */
+  cursor: pointer;
+  background-color: #9c88ff;
+  /* Setting box-shadow properties using a variable */
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
 }
   
-  .money.plus {
-    color: #2ecc71;
-  }
-  
-  .money.minus {
-    color: #c0392b;
-  }
-  
-  label {
-    display: inline-block;
-    margin: 10px 0;
-  }
-  
-  input[type='text'],
-  input[type='number'] {
-    border: 1px solid #dedede;
-    border-radius: 2px;
-    display: block;
-    font-size: 16px;
-    padding: 10px;
-    width: 100%;
-  }
+.btn:focus,
+.delete-btn:focus {
+  outline: 0;
+}
 
-  .btn {
-    cursor: pointer;
-    background-color: #9c88ff;
-    box-shadow: var(--box-shadow);
-    color: #fff;
-    border: 0;
-    display: block;
-    font-size: 16px;
-    margin: 10px 0 30px;
-    padding: 10px;
-    width: 100%;
-  }
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
   
-  .btn:focus,
-  .delete-btn:focus {
-    outline: 0;
-  }
+.list li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
 
-  .list {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 40px;
-  }
+.list li.plus {
+  border-right: 5px solid #2ecc71;
+}
   
-  .list li {
-    background-color: #fff;
-    box-shadow: var(--box-shadow);
-    color: #333;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    margin: 10px 0;
-  }
+.list li.minus {
+  border-right: 5px solid #c0392b;
+}
+  
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
-  .list li.plus {
-    border-right: 5px solid #2ecc71;
-  }
-  
-  .list li.minus {
-    border-right: 5px solid #c0392b;
-  }
-  
-  .delete-btn {
-    cursor: pointer;
-    background-color: #e74c3c;
-    border: 0;
-    color: #fff;
-    font-size: 20px;
-    line-height: 20px;
-    padding: 2px 5px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-100%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .list li:hover .delete-btn {
-    opacity: 1;
-  }
+.list li:hover .delete-btn {
+  opacity: 1;
+}
   

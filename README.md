@@ -55,3 +55,16 @@
 * Introduction to React
 * Puzzle #4: Fizz Buzz Puzzle
 
+## Day 11: 01/17/2022
+
+* Frontend Project: basic_calculator
+* Frontend Project: contact_form
+* Frontend Project: digital_clock
+* React Project: the_venue
+* Puzzle #5: The Harmless Ransom Note
+
+## Day 11: 01/18/2022
+
+* Frontend Project: background_slider
+* Frontend Project: animated_navigation
+* React Project: the_venue

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <form id="ls" method="post" action="">
+        <h1>Please Contact Me</h1>
+        <fieldset>
+            <label for='Name'>Name</label>
+            <input type="text" id="name" name="name" class="stored" />
+            <br>
+            <label for="mail">Email</label>
+            <input type="email" id="small" name="email" class="stored" />
+            <br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="stored"></textarea>
+        </fieldset>
+
+        <button type="submit">Send</button>
+            <input id="clear" type="reset"/>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
