@@ -80,7 +80,5 @@
 
 * Frontend Project: light_dark_mode
 * Frontend Project: custom_countdown
-* Frontend Project: todo_list_app
-* Frontend Project: faq_collapse
 * React Project: city_views
 * Puzzle #6: Palindrome Solution
