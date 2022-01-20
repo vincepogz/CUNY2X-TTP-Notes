@@ -63,14 +63,24 @@
 * React Project: the_venue
 * Puzzle #5: The Harmless Ransom Note
 
-## Day 11: 01/18/2022
+## Day 12: 01/18/2022
 
 * Frontend Project: background_slider
 * Frontend Project: animated_navigation
 * React Project: the_venue
 
-# Day 12: 01/19/2022
+## Day 13: 01/19/2022
 
-* Frontend Project: Word Length Calculator
-* Frontend Project: Color Changing App
+* Frontend Project: word_length_calculator
+* Frontend Project: color_changing_app
 * React Project: Presentation
+* React Project: city_views
+
+## Day 14: 01/20/2022
+
+* Frontend Project: light_dark_mode
+* Frontend Project: custom_countdown
+* Frontend Project: todo_list_app
+* Frontend Project: faq_collapse
+* React Project: city_views
+* Puzzle #6: Palindrome Solution
