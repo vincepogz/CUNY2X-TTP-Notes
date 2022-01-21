@@ -82,3 +82,8 @@
 * Frontend Project: custom_countdown
 * React Project: city_views
 * Puzzle #6: Palindrome Solution
+
+## Day 15: 01/21/2022
+
+* Frontend Project: pokedex_app
+* Puzzle #7: Caesar Cipher

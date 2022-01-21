@@ -1,5 +1,4 @@
-@import '../index.scss';
-
+@import "../../index.scss";
 .navbar {
     background: $mainBlack;
     padding: 0.5rem 1rem;
@@ -15,7 +14,7 @@
     text-align: center;
 }
 
-.nav-links {
+.nav-link {
     color: $mainGrey;
     text-transform: capitalize;
     text-decoration: none;
@@ -27,5 +26,5 @@
 }
 
 .active {
-    color: $mainGreen;
+    color : $mainGreen;
 }
