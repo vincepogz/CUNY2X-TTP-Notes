@@ -85,5 +85,8 @@
 
 ## Day 15: 01/21/2022
 
+* Frontend Project: github_profiles
 * Frontend Project: pokedex_app
+* React Project: Presentation
 * Puzzle #7: Caesar Cipher
+* Flask Project: todo_app
