@@ -93,6 +93,7 @@
 
 ## Day 16: 01/24/2022
 
-* Frontend Project:
-* Frontend Project:
+* Frontend Project: 3d_boxes
+* Frontend Project: animated_countdown
+* Frontend Project: auto_text
 * Puzzle #8: Reverse Words
