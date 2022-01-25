@@ -96,4 +96,5 @@
 * Frontend Project: 3d_boxes
 * Frontend Project: animated_countdown
 * Frontend Project: auto_text
+* Flask Project: Food Tracker
 * Puzzle #8: Reverse Words

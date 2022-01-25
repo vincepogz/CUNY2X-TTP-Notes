@@ -1,44 +1,38 @@
-# import orgparse
-
-from flask import Flask, render_template, request, redirect, url_for
+import os
+from flask import Flask, request, redirect, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
-
-
-'''
-'''
 
 app = Flask(__name__)
 
-app.config ['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
-app.config ['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 class Todo(db.Model):
-    """A dummy docstring."""
-    id=db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(100))
-    complete = db.column(db.Boolean)
     
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100))
+    complete = db.Column(db.Boolean)
+
     def pub1(self):
-        """A dummy docstring."""
-        print("")
+        print('')
         
     def pub2(self):
-        """A dummy docstring."""
-        print("")
         
-@app.route("/edit")
-def home1():
-    """A dummy docstring."""
-    todo_list = Todo.query.all()
-    return render_template("base.html", todo_list=todo_list)
+        print('')
 
-@app.route("/")
+@app.route('/edit')
+def home1():
+    
+    todo_list = Todo.query.all()
+    return render_template('base.html', todo_list = todo_list)
+
+@app.route('/')
 def list1():
     
     todo_list = Todo.query.all()
     return render_template('list.html', todo_list = todo_list)
-    
+
 @app.route('/add', methods=['POST'])
 def add():
     title = request.form.get('title')
@@ -53,7 +47,7 @@ def update(todo_id):
     todo.complete = not todo.complete
     db.session.commit()
     return redirect(url_for('home1'))
-
+    
 @app.route('/delete/<int:todo_id>')
 def delete(todo_id):
     todo = Todo.query.filter_by(id=todo_id).first()
@@ -61,7 +55,11 @@ def delete(todo_id):
     db.session.commit()
     return redirect(url_for('home1'))
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     db.create_all()
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug = True)
+    
+    
+    
+    # app.run(debug=True)
