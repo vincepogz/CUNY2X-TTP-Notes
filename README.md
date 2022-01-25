@@ -98,3 +98,9 @@
 * Frontend Project: auto_text
 * Flask Project: Food Tracker
 * Puzzle #8: Reverse Words
+
+## Day 17: 01/25/2022
+
+* Frontend Project: ripple_effect
+* Frontend Project: content_placeholder
+* Frontend Project: click_heart
