@@ -113,3 +113,5 @@
 * Frontend Project: drink_water
 * Frontend Project: image_carousel
 * Flask Project: Blog App
+
+## Day 19:
