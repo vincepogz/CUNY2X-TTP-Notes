@@ -114,4 +114,6 @@
 * Frontend Project: image_carousel
 * Flask Project: Blog App
 
-## Day 19:
+## Day 19: 01/27/2022
+
+* Frontend Project: splash_page
