@@ -104,3 +104,12 @@
 * Frontend Project: ripple_effect
 * Frontend Project: content_placeholder
 * Frontend Project: click_heart
+* Flask Project: Food Tracker
+* Django Project: Todo
+
+## Day 18: 01/26/2022
+
+* Frontend Project: drag_n_drop
+* Frontend Project: drink_water
+* Frontend Project: image_carousel
+* Flask Project: Blog App
